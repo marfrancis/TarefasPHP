@@ -239,4 +239,28 @@ foreach ($ceu as $pais => $value) {
 // IMPORTANTE: Para que isso funcione bem, os alunos devem criar um array
 // associativo para cada país, de forma que cada país tenha os dados de suas
 // cidades e naAmerica.
+
+echo "Olá" . $_GET['nome']. " " . $_GET['sobrenome'];
 ?></pre>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+
+<form method="GET" action=" ">
+<label for="">Nome</label>
+<input type="text" name="nome"><br><br>
+<label for="">Sobrenome</label>
+<input type="text" name="sobrenome"><br><br>
+<button type="submit">enviar</button>
+
+</form>
+	
+</body>
+</html>
